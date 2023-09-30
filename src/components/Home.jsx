@@ -12,7 +12,7 @@ const Home = () => {
                 <h1>Shivam Kumar</h1>
                 <h2>I'm a Frontend Developer</h2>
                 <p>I'm a passionate frontend developer with a knack for crafting engaging and user-friendly web experiences.
-                    With a diverse skill set and a commitment to clean, efficient code, I thrive in turning design concepts into pixel-perfect, responsive websites and web applications.
+                    With a diverse skill set and a commitment to clean, efficient code, I thrive in turning design concepts into pixel-perfect, responsive websites and web applications..
                 </p>
 
 
