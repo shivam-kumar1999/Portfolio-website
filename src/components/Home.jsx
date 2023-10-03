@@ -17,14 +17,13 @@ const Home = () => {
                 </p>
 
                 <div>
-                  <button className='text-black font-semibold border-2 solid black px-6 py-3 my-2 flex items-center hover:bg-blue-500'>View Work <HiArrowNarrowRight className='ml-2'/> </button>
+                  <button className='text-white font-semibold border-2 solid black px-6 py-3 my-2 flex items-center bg-blue-500  hover:bg-blue-700 transition-all duration-200'>
+                    <a href="https://github.com/shivam-kumar1999" target='blank'>View Work</a>  <HiArrowNarrowRight className='ml-2'/> </button>
                 </div>
 
 
 
-                {/* <div>
-                   <img  className='grayscale border-radius-[50%] flex flex-row ' src="https://avatars.githubusercontent.com/u/99277501?v=4" alt="" />
-                </div> */}
+                
                
            </div>
 

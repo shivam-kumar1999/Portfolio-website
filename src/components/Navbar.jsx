@@ -4,6 +4,8 @@ import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import React from 'react'
 
+import { Link } from "react-scroll";
+
 
 
 const Navbar = () => {
@@ -24,11 +26,38 @@ const Navbar = () => {
               
               
                 <ul className=" text-black text-lg font-semibold md:flex hidden ">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Work</li>
-                    <li>Contact</li>
+                    
+                     <li className="hover:text-blue-600">
+                          <Link to='home' smooth={true} duration={500}>
+                             Home
+                          </Link>
+                    </li>
+
+                    <li className="hover:text-blue-600">
+                       <Link to='about' smooth={true} duration={500}>
+                         About
+                       </Link>
+                    </li>
+
+                     <li className="hover:text-blue-600">
+                       <Link to='skills' smooth={true} duration={500}>
+                         Skills
+                       </Link>
+                     </li>
+
+                      <li className="hover:text-blue-600">
+                        <Link to='work' smooth={true} duration={500}>
+                          Work
+                        </Link>
+                      </li>
+
+
+                       <li className="hover:text-blue-600">
+                         <Link to='contact' smooth={true} duration={500}>
+                           Contact
+                         </Link>
+                       </li>
+
                 </ul>
               
 
@@ -44,11 +73,47 @@ const Navbar = () => {
 
               <ul className={!Nav ? 'hidden' : "absolute top-0 left-0 w-full h-screen bg-[#FAFAFA] flex flex-col justify-center items-center  text-black text-lg font-semibold "}>
                                  
-                    <li className="py-6 text-4xl">Home</li>
-                    <li className="py-6 text-4xl">About</li>
-                    <li className="py-6 text-4xl">Skills</li>
-                    <li className="py-6 text-4xl">Work</li>
-                    <li className="py-6 text-4xl">Contact</li>
+                   
+                     <li className='py-6 text-4xl'>
+                           <Link onClick={handleClick} to='home' smooth={true} duration={500}>
+                             Home
+                           </Link>
+                     </li>
+
+
+                     <li className='py-6 text-4xl'>
+                       {' '}
+                       <Link onClick={handleClick} to='about' smooth={true} duration={500}>
+                         About
+                       </Link>
+                     </li>
+
+
+                      <li className='py-6 text-4xl'>
+                        {' '}
+                        <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
+                          Skills
+                        </Link>
+                      </li>
+
+
+                       <li className='py-6 text-4xl'>
+                         {' '}
+                         <Link onClick={handleClick} to='work' smooth={true} duration={500}>
+                           Work
+                         </Link>
+                       </li>
+
+
+                       <li className='py-6 text-4xl'>
+                         {' '}
+                         <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
+                           Contact
+                         </Link>
+                       </li>
+
+
+
               </ul>
 
               

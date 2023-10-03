@@ -8,3 +8,17 @@
         @apply cursor-pointer;
     }
 }
+
+@media only screen and (max-width:600px){
+    
+}.mobile{
+    flex-direction: column;
+    width: 80%;
+}
+
+@media only screen and (min-width:610px){
+    .mobile{
+    flex-direction: row;
+    width: 32%;
+}
+}
