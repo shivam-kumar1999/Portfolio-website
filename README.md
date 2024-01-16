@@ -1,5 +1,5 @@
 https://shivamkportfolio.netlify.app/
-I am proud to present my latest project, a portfolio website that I built using a combination of HTML, CSS, Tailwind CSS, JavaScript, and React. This website serves as a digital showcase of my skills, experiences, and creative work. Through this project, I aimed to create a personalized online space that reflects my personality and professionalism//
+I am proud to present my latest project, a portfolio website that I built using a combination of HTML, CSS, Tailwind CSS, JavaScript, and React. This website serves as a digital showcase of my skills, experiences, and creative work. Through this project, I aimed to create a personalized online space that reflects my personality and professionalism/////
 
 
 
